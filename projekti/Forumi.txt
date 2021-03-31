@@ -1,0 +1,5 @@
+FOrumi
+1. Regjistrimi
+2. Artikujt i shenon nje anetar
+3. Anetari qe ka rolin admin modifiku ose shtu fshij artikull
+4. Anetari me komentu ne artikull

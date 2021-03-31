@@ -1,0 +1,7 @@
+1. Regjistrimi | Hyrja e Anëtareve
+2. Shënimi i artikullit nga anëtari
+3. Anëtari me rrolin admin mund ta aprovoj një artikull të publikuar nga anëtarët tjerë
+4. Anëtarët e tjerë mund të komentojnë në një artikull
+5. Anëtari që ka shtura artikullin mund të fshij komentet
+6. Anëtarët mund të pëlqejnë dhe të lexojnë artikullin
+7. Admini mund të shikoj artikujt më të lexuar dhe pëlqyer

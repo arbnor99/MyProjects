@@ -1,0 +1,326 @@
+.univ{
+	width:76%;
+	margin:0 auto;
+	background-color:white;
+}
+body{
+	background-color:#dfdfdf;
+	margin:0;
+	padding:0;
+	font-size:1em;
+	font-family:Arial;
+	color:#444;
+}
+/**-----HEADER--------**/
+
+.header{
+	height:140px;
+}
+header img{
+	width:12%;
+	float:left;
+	margin-left:15px;
+	margin-top:5px;
+}
+#top{
+	height:55px;
+	float:right;
+}
+#top input[type='search']{
+	border:2px solid #dfdfdf; 
+	width:170px;
+	margin-right:10px!important;
+	height:30px;
+}
+#top ul{
+	list-style-type: none;
+	background-color:white;
+	height:5px;
+	margin-top:5px;
+}
+#top ul li{
+	display:inline;
+}
+#top ul li a{
+	font-size:13px;
+	color:#888;
+	text-decoration:none;
+	padding-left:2px;
+	padding-right:4px;
+}
+#top ul li:first-child a{
+	border-right:1px solid #888;
+}
+
+#navbar{
+	width: 83%;
+	float: right;
+	margin-top: 15px;
+}
+
+#navbar ul{
+	list-style-type: none;
+	padding:0px;
+
+}
+#navbar ul li{
+	float: left;
+}
+#navbar ul li a{
+	display:block;
+	font-size:15px;
+	color: white;
+	background-color:red;
+	text-decoration:none;
+	padding:15px 20px;
+	text-transform: uppercase;
+}
+#navbar ul li a:hover,#navbar ul li a:active{
+	background-color:#A50000;
+}
+
+.tick tr{
+	background-color:red;
+}
+
+/**--------MAIN-----------**/
+.main{
+	height:1240px;
+}
+#opsionet{
+	width:100%;
+	auto-height;
+}
+.fig, .fig1, .fig2, .fig3{
+	width:25%;
+	float:left;
+	margin:0px;
+	background-color:#ddd;
+	height:200px;
+}
+.fig1{background-color:#ccc;}
+.fig2{background-color:#bbb;}
+.fig3{background-color:#aaa;}
+
+.fig img, .fig1 img, .fig2 img, .fig3 img{
+	margin-left:75px;
+	margin-top:40px;
+}
+.fig h3, .fig1 h3, .fig2 h3, .fig3 h3{
+	text-align:center;
+	color:#666;
+}
+
+/**--------TI--------**/
+
+#tekno{
+	width:100%;
+	height:650px;
+}
+.ti, ti1{
+	width:50%;
+}
+.ti{float:left;}
+.ti1{float:right;}
+.ti img, .ti1 img{
+	width:90%;
+	margin-left:15px;
+}
+.ti h2, .ti1 h2, #info h2{
+	text-transform:uppercase;
+	margin-left:15px;
+}
+span{
+	text-decoration:underline #A50000;
+}
+.ti h5, .ti1 h5{
+	margin-left:15px;
+	font-size:13px;
+}
+.ti ol, .ti1 ol{
+	font-size:13px;
+}
+.ti a, .ti1 a{
+	margin-left:15px;
+	text-decoration:none;
+	font-size:13px;
+	color:white;
+	padding:11px 15px;
+	background-color:#A50000;
+}
+
+/**-------INFO-------**/
+
+#info{
+	width:100%;
+	height:300px;
+}
+.orari{
+	float:left;
+	width:34%;
+	background-color:#dcdcdc;
+	height:300px;
+}
+#kresha{
+	width:100%;
+}
+#kresha img{
+	float:left;
+}
+#info p{
+	display:inline;
+	font-size:13px;
+}
+#info a{
+	font-size:13px;
+	text-decoration:none;
+	color:#A50000;
+}
+#info a:hover{
+	text-decoration:underline;
+	}
+.orari a:last-child{
+	float:right;
+	text-decoration:underline!important;
+}
+.ekipi{
+	float:left;
+	width:33%;
+	background-color:#ccc;
+	height:300px;
+}
+.ekipi #kresha{
+	margin-left:25px;
+}
+.ekipi #kresha img{
+	margin-right:40px;
+}
+
+/**-----STUDENTET-------*//
+
+#fund{
+	width:100%;
+	height:290px;
+}
+.student{
+	float:left;
+	width:70%;
+	height:290px;
+}
+.student h2{
+	text-align:center;
+	color:#A50000;
+}
+.student p{
+	text-align:center;
+	font-size:13px;
+}
+.student span{
+	margin-top:200px;
+	text-decoration:none;
+	color:#ccc;
+	font-size:15px;
+}
+.student h5{
+	color:#A50000;
+}
+.student img{
+	margin-left:30px;
+	margin-right:50px;
+	float:left;
+	width:140px;
+	height:160px;
+	border:2px solid #A50000;
+	border-radius:45%;
+}
+.artikujt{
+	float:right;
+	width:30%;
+	height:290px;
+}
+.artikujt h2{
+	color:#A50000;
+	text-align:left;
+}
+.artikujt a{
+	display:block;
+	line-height:30px;
+	color:#888;
+	text-decoration:none;
+	font-size:13px;
+}
+.artikujt a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+
+/**-------FOOTER-----**/
+
+.footer{
+	background-color:#A50000;
+	height:220px;
+}
+#kuq{
+	width:100%;
+	height:110px;
+	border-bottom: 1px solid white;
+}
+.footer form{
+	width:23%;
+	float:left;
+	padding-top:35px;
+	margin-left:15px;
+}
+.footer input[type='email']{
+	border:2px solid white;
+	border-radius:3px;
+	background-color:#A50000;
+	width:140px;
+	height:40px;
+}
+.footer input[type='email']:focus{
+	background-color:white!important;
+}
+.footer input[type='submit']{
+	background-color:white;
+	color:red;
+	border:white;
+	height:30px;
+	border-radius:3px;
+}
+#pint{
+	float:left;
+	width:25%;
+	margin-top:35px;
+	color:white;
+	font-size:13px;
+}
+#pint p{
+	display:inline;
+}
+#pint img{
+	float:left;
+	margin-right:15px;
+}
+#end p{
+	float:left;
+	margin-top:40px;
+	margin-left:15px;
+	color:white;
+	font-size:13px;
+	width:80%;
+}
+#end p a{
+	text-decoration:none;
+	font-size:13px;
+	color:white;
+}
+#end p a:hover{
+	text-decoration:underline;
+}
+#end a.iccon{
+	float:left;
+	margin-top:20px;
+	margin-left:10px;
+	display:inline;
+}
