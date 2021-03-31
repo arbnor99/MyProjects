@@ -1,2 +1,2 @@
-# oneschool
-I created a course WebSite using Laravel. Admin and the teachers can log in and manae the course, where admin has more controll then teachers.
+# MyProjects
+Here are some projects that I made using HTML, CSS, Bootstrap, JS, jQuery, PHP and Laravel
